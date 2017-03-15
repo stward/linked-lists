@@ -3,6 +3,12 @@
 * @module
 */
 
+/**
+* Node - generates a Node element of a linked list
+* @function
+* @constructor
+* @param {Number} data
+*/
 function Node(data) {
   this.next = null;
   this.data = data;
